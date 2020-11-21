@@ -26,8 +26,8 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="../dist/img/banner.jpg" ></div>
-        <div class="swiper-slide"><img src="../dist/img/banner.jpg" ></div>
-        <div class="swiper-slide"><img src="../dist/img/banner.jpg" ></div>
+        <div class="swiper-slide"><img src="../dist/img/banner2.jpg" ></div>
+        <div class="swiper-slide"><img src="../dist/img/banner1.jpg" ></div>
     </div>
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>    
@@ -35,11 +35,49 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>   
     <!-- 如果需要滚动条 -->
-    <div class="swiper-scrollbar"></div>
+    <!-- <div class="swiper-scrollbar"></div> -->
 </div>
-
+<div class="code">
+	<div class="code_1">
+		<div><img class="ewm" src="../dist/img/ewm1.png" ></div>
+		<div class="describe">
+			<p>微信扫码下载</p>
+			<p>App专享优思</p>
+		</div>
+	</div>
+</div>
 
 <script src="../js/index.js"></script>
 <script src="../js/swiper.min.js"></script>
+<script type="text/javascript">
+	var mySwiper = new Swiper('.swiper-container', {
+		direction: 'horizontal',
+	    loop: true, // 循环模式选项
+	    altoplay:{
+			delay:3000,
+			stopOnLastSlide:false,
+			disableOnInteraction:false,
+		},
+		effect: 'flip',
+	    // 如果需要分页器
+	    pagination: {
+	      el: '.swiper-pagination',
+		  clickable:true,
+	    },
+	    
+	    // 如果需要前进后退按钮
+	    navigation: {
+	      nextEl: '.swiper-button-next',
+	      prevEl: '.swiper-button-prev',
+	    },
+	    
+	    // 如果需要滚动条
+	    // scrollbar: {
+	    //   el: '.swiper-scrollbar',
+	    // },
+	  })        
+	
+	
+</script>
 </body>
 </html>

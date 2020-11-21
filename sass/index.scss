@@ -1,3 +1,6 @@
+body{
+	background-color: #fafafa;
+}
 .header{
 	width: 100%;
 	height: 107px;
@@ -41,7 +44,44 @@
 
 }
 }
+.swiper-slide img{
+	width: 100%;
+	height: 450px;
+}
 .swiper-container{
 	height:450px;
 	margin-top: 107px;
+}
+.swiper-button-next:after,.swiper-button-prev:after{
+	color: #ccc;
+}
+.code{
+	background-color: white;
+	width: 162px;
+	height: 210px;
+	position: fixed;
+	left: 0;
+	top: 680px;
+	.code_1{
+		margin-left: 8px;
+		margin-top: 8px;
+		border: 2px solid #ffedf1;
+		width: 146px;
+		height: 194px;
+		.ewm{
+			width: 112px;
+			height: 112px;
+			margin-top: 25px;
+			margin-left: 17px;
+		}
+		.describe{
+			margin-top: 8px;
+			p{
+				line-height: 16px;
+				font-size: 12px;
+				color: #666666;
+				margin-left: 34px;
+			}
+		}
+	}
 }
