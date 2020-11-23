@@ -264,6 +264,7 @@ body{
 	position: absolute;
 	left: 0;
 	top: 4090px;
+	display: block;
 	width: 100%;
 	height: 439px;
 	background-color: white;
@@ -333,13 +334,57 @@ body{
 			
 		}
 		
+	}	
+}
+.footer2{
+	width: 100%;
+	height: 130px;
+	position: absolute;
+	left: 0;
+	top: 4532px;
+	background-color: #3f3e3e;
+	.pp1,.pp2,.pp3{
+		color: #b1b1b1;
+		font-size: 12px;
 	}
-	
-	
-	
-	
-	
-	
+	.pp1{
+		margin-top: 28px;
+		margin-left: 723px;
+	}
+	.pp2{
+		margin-left: 842px;
+		margin-top: 16px;
+	}
+	.pp3{
+		margin-left: 642px;
+		img{
+			margin-top: 16px;
+			float: left;
+		}
+		i{
+			margin-left: 25px;
+			margin-top: 18px;
+			float: left;
+		}
+		.i1{
+			margin-left: 5px;
+		}
+	}
+}
+.footer3{
+	position: absolute;
+	left: 0;
+	top: 4662px;
+	width: 100%;
+	height: 70px;
+	padding-left: 500px;
+	padding-top: 10px;
+	img{
+		cursor: pointer;
+		height: 50px;
+		float: left;
+		margin-right: 22px;
+	}
 }
 
 
