@@ -109,6 +109,9 @@ body{
 	height: 533px;
 	margin-top: 45px;
 	margin-left: 350px;
+	img:hover{
+		opacity: 0.68;
+	}
 	.goods1{
 		width: 100%;
 		height: 278px;
@@ -159,9 +162,13 @@ body{
 			width: 556px;
 			height: 484px;
 			border: 1px solid #f7f7f7;
+			&:hover{
+				opacity: 0.68;
+			}
 			.main1_top{
 				width: 556px;
 				height: 276px;
+				
 			}
 			.main1_button{
 				width: 556px;
