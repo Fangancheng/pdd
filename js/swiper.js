@@ -5,6 +5,11 @@
 		    pagination: {
 		      el: '.swiper-pagination',
 		    },
+			autoplay: {
+			    delay: 3000,
+			    stopOnLastSlide: false,
+			    disableOnInteraction: true,
+			    },
 		    
 		    // 如果需要前进后退按钮
 		    navigation: {
