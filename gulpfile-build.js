@@ -8,6 +8,12 @@ async function delDist(){
   await del('./dist')
 }
 
+//处理data文件夹
+async function data() {
+    src('./data/*.*')
+        .pipe(dest('./dist/data'))
+}
+
 // 处理图片
 async function img(){
   src('./img/*.*')
