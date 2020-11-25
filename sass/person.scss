@@ -1,0 +1,107 @@
+body{
+	position: relative;
+	background-color: #fafafa;
+}
+.header{
+	z-index: 9999;
+	width: 100%;
+	height: 107px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	.header_1{
+		margin: 0 auto;
+		width: 1200px;
+		overflow: hidden;
+		position: relative;
+
+		h1 img{
+			width: 180px;
+			height: 63px;
+			float: left;
+			margin-top: 17px;
+			cursor: pointer;
+		}
+		
+		p{
+			width: 100px;
+			height: 24px;
+			font-size: 18px;
+			float: left;
+			margin-top: 35px;
+			text-align: center;
+			border-right: 1px solid #6c6c6c;
+			a{
+				color:#6c6c6c;
+		     }
+			 color: #fc475d;
+		.p1{
+			border-right:none ;
+		}
+	}
+
+}
+}
+.goods{
+	width: 900px;
+	height: 700px;
+	background-color: skyblue;
+	margin-top: 206px;
+	margin-left: 515px;
+	.list{
+		width: 900px;
+		height: 48px;
+		background-color: #bbb;
+		p{
+			float: left;
+			font-size: 18px;
+			line-height: 48px;
+		}
+		.p1{
+			margin-left: 144px;
+		}
+		.p2{
+			margin-left: 300px;
+		}
+		.p4{
+			margin-left: 86px;
+		}
+		.p5{
+			margin-left: 82px;
+		}
+	}
+	ul{
+		li{
+			margin-top: 10px;
+			width: 900px;
+			height: 70px;
+		}
+		img{
+			width: 70px;
+			float: left;
+			margin-left: 20px;
+		}
+		h3{
+			margin-top: 22px;
+			margin-left: 20px;
+			float: left;
+		}
+		p{
+			margin-top: 22px;
+			margin-left: 120px;
+			float: left;
+		}
+		span{
+			margin-top: 22px;
+			margin-left: 98px;
+			float: left;
+		}
+		em{
+			margin-top: 22px;
+			margin-left: 100px;
+			float: left;
+		}
+		
+	}
+	
+}
