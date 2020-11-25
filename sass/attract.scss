@@ -135,7 +135,7 @@ body{
 .gap{
 	width: 100%;
 	height: 56px;
-	padding-left: 752px;
+	padding-left: 711px;
 	img{
 		float: left;
 	}
@@ -152,29 +152,266 @@ body{
 		margin-left: -362px;
 		line-height: 50px;
 	}
+	.span5{
+		margin-left: -447px;
+	}
+	.span9{
+		margin-left: -395px;
+	}
 }
-.cas{
-	position: relative;
-	width: 1000px;
+.ca{
+	width: 900px;
 	height: 409px;
 	margin-top: 42px;
-	margin-left: 422px;
-	background-color: skyblue;
-	img{
-		width: 121px;
-		height: 121px;
+	margin-left: 533px;
+.cas{
+	margin-right: 10px;
+	float: left;
+	width: 275px;
+	height: 409px;
+	z-index: 101;
+
+	.bg{
+		width: 274px;
+		height: 409px;
 		}
 	.case{
-		position: absolute;
-		top: 100px;
-		left: 300px;
+		position: relative;
 		.case1{
+			
+			.dis1{
+				font-weight: 700;
+				font-size: 20px;
+				color: #fff;
+				position: absolute;
+				top: -403px;
+				left: 77px;
+			}
 			img{
+				position: absolute;
+				top: -360px;
+				left: 77px;
 				width: 121px;
 				height: 121px;
-				
+			}
+			.dis2{
+				position: absolute;
+				top: -212px;
+				left: 103px;
+				font-size: 20px;
+				color: #494949;
+				font-weight: 700;
+			}
+			.dis3{
+				position: absolute;
+				top: -179px;
+				left: 62px;
+				font-size: 15px;
+				color: #6f6f6f;
+				font-weight: 700;
+			}
+			.dis4{
+				position: absolute;
+				top: -147px;
+				left: 36px;
+				font-size: 14px;
+				color: #6f6f6f;
 			}
 		}
+		.cover{
+			display: none;
+			position: absolute;
+			margin-top: -414px;
+			border-radius: 8px;
+			width: 275px;
+			height: 409px;
+			background-color: rgba(0,0,0,0.6);
+			img{
+				margin-top: 95px;
+				margin-left: 49px;	
+			}
+			p{
+				margin-top: 15px;
+				margin-left: 73px;
+				font-size: 20px;
+				color: #fff;
+			}
+		}
+		&:hover .cover{
+			display: block;
+		}
 		
+	}
+}
+}
+.free{
+	margin-top: 70px;
+	margin-left: 834px;
+	margin-bottom: 70PX;
+	cursor: pointer;
+	
+}
+.join{
+	width: 930px;
+	height: 600px;
+	margin-left: 500px;
+	margin-top: 30px;
+	.join1{
+		float: left;
+		margin-right: 30px;
+		width: 280px;
+		height: 272px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		background-color: white;
+		border-radius: 12px;
+		box-shadow: 0 0 30px #e6e6e6;
+		img{
+			width: 280px;
+			height: 172px;
+		}
+		p{
+			color: #2F2F36;
+			font-size: 18px;
+			margin-top: 30px;
+			margin-left: 90px;
+		}
+		span{
+			color: #58595B;
+			font-size: 14;
+			margin-left: 55px;
+		}
+	}
+	
+}
+.business{
+	margin-top: 35px;
+	margin-left: 511px;
+}
+
+.footer1{
+	position: absolute;
+	left: 0;
+	top: 3127px;
+	display: block;
+	width: 100%;
+	height: 439px;
+	background-color: white;
+	.footer1_t{
+		width: 100%;
+		height: 439px;
+		.middle1{
+			width: 1125px;
+			height: 240px;
+			margin-top: 60px;
+			margin-left: 454px;
+			.middle1_left{
+				display: block;
+				width: 666px;
+				height: 240px;
+				border-right: 1px solid #4d4d4d;
+				.middle1_left_1{
+					float: left;
+					margin-top: 20px;
+					margin-right: 59px;
+					p{
+						font-size: 16px;
+						color: #4d4d4d;
+						margin-left: 8px;
+						margin-top: 14px;
+					}
+					.pd{
+						font-size: 16px;
+						color: #4d4d4d;
+						margin-left: 17px;
+					}
+					.pp{
+						font-size: 16px;
+						color: #4d4d4d;
+						margin-left: 45px;
+						line-height: 27px;
+					}
+				}
+			}
+			.middle1_right{
+				width: 400px;
+				height: 240px;
+				float: right;
+				display: block;
+				margin-top: -244px;
+				h3{
+					font-size: 24px;
+					color: #4d4d4d;
+				}
+				p{
+					font-size: 14px;
+					color: #4d4d4d;
+					line-height: 37px;
+				}
+			}
+		}
+		.button1{
+			margin-left: 462px;
+			margin-top: 67px;
+			a{
+				color: #6c6c84;
+				font-size: 15px;
+				&:hover{
+					color: red;
+				}
+			}
+			
+		}
+		
+	}	
+}
+.footer2{
+	width: 100%;
+	height: 130px;
+	position: absolute;
+	left: 0;
+	top: 3566px;
+	background-color: #3f3e3e;
+	.pp1,.pp2,.pp3{
+		color: #b1b1b1;
+		font-size: 12px;
+	}
+	.pp1{
+		margin-top: 28px;
+		margin-left: 723px;
+	}
+	.pp2{
+		margin-left: 842px;
+		margin-top: 16px;
+	}
+	.pp3{
+		margin-left: 642px;
+		img{
+			margin-top: 16px;
+			float: left;
+		}
+		i{
+			margin-left: 25px;
+			margin-top: 18px;
+			float: left;
+		}
+		.i1{
+			margin-left: 5px;
+		}
+	}
+}
+.footer3{
+	position: absolute;
+	left: 0;
+	top: 3700px;
+	width: 100%;
+	height: 70px;
+	padding-left: 500px;
+	padding-top: 10px;
+	img{
+		cursor: pointer;
+		height: 50px;
+		float: left;
+		margin-right: 22px;
 	}
 }
