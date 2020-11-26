@@ -31,8 +31,9 @@ lodin.onclick = function(){
 		alert('账号或密码不能为空')
 		return
 	}if (us === usval && ps === psval){
-		alert("登录成功")
-		location.href = './pages/person.html'
+		alert("登录成功");
+		// open("../pages/person.html");
+		location.href = "./person.html"
 	} else{
 		alert("账号或密码错误，请重新输入或确认是否为最新注册");
 	}

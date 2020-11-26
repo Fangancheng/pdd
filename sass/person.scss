@@ -88,18 +88,22 @@ body{
 		}
 		p{
 			margin-top: 22px;
-			margin-left: 120px;
-			float: left;
+			margin-right: 324px;
+			float: right;
 		}
 		span{
 			margin-top: 22px;
-			margin-left: 98px;
-			float: left;
+			margin-right: -151px;
+			float: right;
 		}
 		em{
 			margin-top: 22px;
-			margin-left: 100px;
-			float: left;
+			margin-right: -280px;
+			float: right;
+			cursor: pointer;
+			&:hover{
+				color: red;
+			}
 		}
 		
 	}
