@@ -102,6 +102,9 @@ body{
 		font-size: 18px;
 		float: right;
 		color: #868686;
+		&:hover{
+			color: red;
+		}
 	}
 }
 .goods{
