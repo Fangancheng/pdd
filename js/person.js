@@ -36,7 +36,7 @@ $(function(){
 			$(this).parent().remove()
 			//更新本地存储中的数据
 			var code = $(this).attr('code')//要删除数据的编号
-			//删除数组中的元素：pop() 删除最后一个 ，unshift() 删除第一个 ,splice(起始下标索引,从索引开始的第几个) 删除中间		})
+			//删除数组中的元素：pop() 删除最后一个 ，unshift() 删除第一个 ,splice(起始下标索引,从索引开始删除几个) 删除中间		})
 			$.each(goodsArr,function(index,item){
 				if(item.code === code){
 					goodsArr.splice(index,1)
